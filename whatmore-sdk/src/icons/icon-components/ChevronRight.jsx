@@ -1,0 +1,11 @@
+import { Svg, Circle, Path } from 'react-native-svg'; // Assuming you're using react-native-svg
+import React from 'react';
+
+const ChevronRightIcon = ({ width, height, color }) => (
+    <Svg width={width} height={height} viewBox="0 0 24 24" fill="none">
+        <Circle cx="12" cy="12" r="12" fill="white" />
+        <Path d="M8.29289 16.2929C7.90237 16.6834 7.90237 17.3166 8.29289 17.7071C8.68342 18.0976 9.31658 18.0976 9.70711 17.7071L14.7071 12.7071C15.0976 12.3166 15.0976 11.6834 14.7071 11.2929L9.70711 6.29289C9.31658 5.90237 8.68342 5.90237 8.29289 6.29289C7.90237 6.68342 7.90237 7.31658 8.29289 7.70711L12.5858 12L8.29289 16.2929Z" fill={'black'} />
+    </Svg>
+);
+
+export default ChevronRightIcon;

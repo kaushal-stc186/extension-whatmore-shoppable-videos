@@ -1,0 +1,6 @@
+## SVG repo:
+https://www.svgrepo.com/vectors/volume/
+
+## SVG to react-native
+https://transform.tools/svg-to-react-native
+

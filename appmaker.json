@@ -1,0 +1,10 @@
+{
+    "type": "extension",
+    "id": "clfgr13vg000e200iiiysza0v",
+    "handle": "whatmore-shoppable-videos",
+    "name": "Whatmore Shoppable Videos",
+    "package": {
+        "id": "clfgr144c000g200if7hpze7s",
+        "name": "@appmaker-packages/extension-whatmore-shoppable-videos"
+    }
+}

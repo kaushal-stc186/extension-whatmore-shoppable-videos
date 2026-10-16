@@ -1,0 +1,11 @@
+{
+  "name": "@appmaker-packages/extension-whatmore-shoppable-videos",
+  "version": "1.2.5",
+  "main": "src/index.js",
+  "description": "Appmaker",
+  "dependencies": {},
+  "peerDependencies": {
+    "react-native-video": ">=6 <8",
+    "react-native-svg": ">=13"
+  }
+}

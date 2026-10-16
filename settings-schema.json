@@ -1,0 +1,99 @@
+{
+  "properties": {
+    "shop_id": {
+      "type": "string",
+      "label": "Shopify Store ID"
+    },
+    "skin": {
+      "type": "string",
+      "label": "Carousel skin",
+      "uiType": "select",
+      "default": "standard",
+      "options": [
+        { "label": "Standard", "value": "standard" },
+        { "label": "Product Card", "value": "card" },
+        { "label": "Overlay", "value": "overlay" },
+        { "label": "Focused (product drawer)", "value": "focused" }
+      ]
+    },
+    "productTileSkin": {
+      "type": "string",
+      "label": "Product tile style",
+      "uiType": "select",
+      "default": "cream",
+      "options": [
+        { "label": "Glass (translucent)", "value": "glass" },
+        { "label": "Cream (warm card)", "value": "cream" },
+        { "label": "Card (white, dark CTA)", "value": "card" }
+      ]
+    },
+    "showArrows": {
+      "type": "string",
+      "label": "Show navigation arrows over carousel",
+      "uiType": "switch",
+      "default": false
+    },
+    "showProductDetails": {
+      "type": "string",
+      "label": "Show product details below video tile",
+      "uiType": "switch",
+      "default": true
+    },
+    "showDiscountLabel": {
+      "type": "string",
+      "label": "Show discount label in the product details",
+      "uiType": "switch",
+      "default": false
+    },
+    "videoTileSize": {
+      "max": 8,
+      "min": 1,
+      "type": "string",
+      "label": "Video tile size",
+      "uiType": "RangeSlider",
+      "default": 5.5
+    },
+    "videoTileSpacing": {
+      "max": 8,
+      "min": 1,
+      "type": "string",
+      "label": "Video tile spacing",
+      "uiType": "RangeSlider",
+      "default": 3
+    },
+    "videoTileRadius": {
+      "max": 40,
+      "min": 0,
+      "type": "string",
+      "label": "Video tile corner radius",
+      "uiType": "RangeSlider",
+      "default": 0
+    },
+    "widgetMarginBottom": {
+      "max": 120,
+      "min": 0,
+      "type": "string",
+      "label": "Widget bottom margin",
+      "uiType": "RangeSlider",
+      "default": 50
+    },
+    "fontSize": {
+      "max": 40,
+      "min": 1,
+      "type": "string",
+      "label": "Font size",
+      "uiType": "RangeSlider",
+      "default": 20
+    },
+    "fontFamily": {
+      "type": "string",
+      "label": "Font family",
+      "default": "sans-serif"
+    },
+    "brandThemeColor": {
+      "type": "string",
+      "label": "Brand theme color",
+      "uiType": "ColorPicker"
+    }
+  }
+}
